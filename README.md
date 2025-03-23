@@ -17,3 +17,8 @@ Below is the JSON configuration for MCP Claude Desktop. Replace `"your-api-key-h
   }
 }
 ```
+
+Github: https://github.com/WesternConcrete/jfk-mcp
+
+NPM: https://www.npmjs.com/package/jfk-mcp
+
