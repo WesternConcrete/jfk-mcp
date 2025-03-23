@@ -1,6 +1,6 @@
 {
-  "name": "jfk-files-mcp-test",
-  "version": "1.0.2",
+  "name": "jfk-mcp",
+  "version": "0.0.1",
   "main": "index.js",
   "type": "module",
   "bin": {
