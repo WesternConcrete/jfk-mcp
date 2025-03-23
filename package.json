@@ -1,6 +1,6 @@
 {
   "name": "jfk-mcp",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "main": "index.js",
   "type": "module",
   "bin": {
@@ -12,7 +12,6 @@
   "files": [
     "build"
   ],
-  "keywords": [],
   "author": "wconvery",
   "license": "MIT",
   "description": "An MCP server for JFK files",
@@ -26,5 +25,17 @@
   "devDependencies": {
     "@types/node": "^22.13.11",
     "typescript": "^5.8.2"
-  }
+  },
+  "keywords": [
+    "mcp",
+    "MCP",
+    "modelcontextprotocol",
+    "Model Context Protocol",
+    "JFK",
+    "JFK files",
+    "JFK assasination",
+    "National Archives",
+    "archives-api" ,
+    "archives-api.com"
+  ]
 }
