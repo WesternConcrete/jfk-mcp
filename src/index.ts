@@ -3,7 +3,6 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
-// Import the ArchivesApiClient from your SDK
 import { ArchivesApiClient } from "archives-api-client";
 import fetch from 'node-fetch';
 import dotenv from "dotenv";
@@ -17,10 +16,6 @@ const API_KEY = process.env.ARCHIVES_API_KEY;
 if (!API_KEY) {
   throw new Error("ARCHIVES_API_KEY environment variable is required");
 }
-
-// ----------------------------------------------------------------------------
-// Zod Schemas Based on SDK Types
-// ----------------------------------------------------------------------------
 
 // ------------------------------
 // COMMON FILTER TYPES
